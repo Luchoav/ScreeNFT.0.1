@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es-AR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,144 +13,162 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <!--CUSTOME CSS-->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="menu-btn">
         <i class="fas fa-bars"></i>
     </div>
 
+    <nav class="navbar navbar-dark bg-dark" id="nav-main">
+        <img src="img/IMG-20220529-WA0000-removebg-preview.png" alt="ScreeNFT LOGO" class="nav-brand">
+        <ul class="nav-menu show">
+            <li>
+                <a href="#">Objetivo</a>
+            </li>
+            <li>
+                <a href="#">Productos</a>
+            </li>
+            <li>
+                <a href="#">Clientes</a>
+            </li>
+            <li>
+                <a href="#">Quienes Somos</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+        <ul class="nav-menu-right">
+            <li>
+                <form class="d-flex" role="search" >
+                    <input class="form-control me-2 buscar" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success btn-buscar" type="submit">Search</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
 
-    <div class="container">
-        <nav class="nav-main">
-            <img src="img/screeNFT.png" alt="ScreeNFT LOGO" class="nav-brand">
-            <ul class="nav-menu show">
-                <li>
-                    <a href="#">Objetivo</a>
-                </li>
-                <li>
-                    <a href="#">Productos</a>
-                </li>
-                <li>
-                    <a href="#">Clientes</a>
-                </li>
-                <li>
-                    <a href="#">Quienes Somos</a>
-                </li>
-                <li>
-                    <a href="#">Coontacto</a>
-                </li>
-            </ul>
-            <ul class="nav-menu-right">
-                <li>
-                    <a href="#">
-                        <i class="fas fa-search"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <hr>
+    <!-- SHOWCASE-->
+    <header class="showcase">
+        <h2>Big News Today</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aliquam vero nemo similique voluptatum quod id
+            incidunt itaque aut tenetur. Quidem pariatur quisquam in quo corporis veritatis temporibus earum
+            consequuntur!</p>
+        <a href="#" class="btn">Read More<i class="fas fa-angle-double-right"></i></a>
+    </header>
 
-        <!-- SHOWCASE-->
-        <header class="showcase">
-            <h2>Big News Today</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aliquam vero nemo similique voluptatum quod id incidunt itaque aut tenetur. Quidem pariatur quisquam in quo corporis veritatis temporibus earum consequuntur!</p>
-            <a href="#" class="btn">Read More<i class="fas fa-angle-double-right"></i></a>
-        </header>
-
-        <!-- NEW CARDS-->
-        <div class="news-cards">
-            <div>
-                <img src="img/news1.jpg" alt="News 1">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos quidem obcaecati odio. Vitae qui quo in!</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="img/news2.jpg" alt="News 2">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos quidem obcaecati odio. Vitae qui quo in!</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="img/news3.jpg" alt="News 3">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos quidem obcaecati odio. Vitae qui quo in!</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="img/news4.jpg" alt="News 4">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos quidem obcaecati odio. Vitae qui quo in!</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-            </div>
+    <!-- NEW CARDS-->
+    <div class="news-cards">
+        <div>
+            <img src="img/news1.jpg" alt="News 1">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos
+                quidem obcaecati odio. Vitae qui quo in!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
         </div>
-         
-        <!--BANNER ONE SECTIONS ONE BUTTOM CARDS -->
-
-        <section class="cards-banner-one">
-            <div class="content">
-                <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, deleniti vitae. Molestias dignissimos quas praesentium minus error libero, laborum voluptatibus.</p>
-                <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
-            </div>
-        </section>
-
-         <!-- NEW CARDS 2-->
-         <div class="news-cards">
-            <div>
-                <img src="img/news1.jpg" alt="News 1">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos quidem obcaecati odio. Vitae qui quo in!</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="img/news2.jpg" alt="News 2">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos quidem obcaecati odio. Vitae qui quo in!</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="img/news3.jpg" alt="News 3">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos quidem obcaecati odio. Vitae qui quo in!</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-            </div>
-            <div>
-                <img src="img/news4.jpg" alt="News 4">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos quidem obcaecati odio. Vitae qui quo in!</p>
-                <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-            </div>
+        <div>
+            <img src="img/news2.jpg" alt="News 2">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos
+                quidem obcaecati odio. Vitae qui quo in!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
         </div>
+        <div>
+            <img src="img/news3.jpg" alt="News 3">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos
+                quidem obcaecati odio. Vitae qui quo in!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <img src="img/news4.jpg" alt="News 4">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos
+                quidem obcaecati odio. Vitae qui quo in!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+
+    <!--BANNER ONE SECTIONS ONE BUTTOM CARDS -->
+
+    <section class="cards-banner-one">
+        <div class="content">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, deleniti vitae. Molestias dignissimos
+                quas praesentium minus error libero, laborum voluptatibus.</p>
+            <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </section>
+
+    <!-- NEW CARDS 2-->
+    <div class="news-cards">
+        <div>
+            <img src="img/news1.jpg" alt="News 1">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos
+                quidem obcaecati odio. Vitae qui quo in!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <img src="img/news2.jpg" alt="News 2">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos
+                quidem obcaecati odio. Vitae qui quo in!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <img src="img/news3.jpg" alt="News 3">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos
+                quidem obcaecati odio. Vitae qui quo in!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <img src="img/news4.jpg" alt="News 4">
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates officia vero laudantium. Dignissimos
+                quidem obcaecati odio. Vitae qui quo in!</p>
+            <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
 
 
-       <!-- BANNER TWO -->
+    <!-- BANNER TWO -->
 
-        <section class="cards-banner-two">
-            <div class="content">
-                <h2>Lorem, ipsum dolor.</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error adipisci nihil sint enim rem temporibus corrupti sit eum, incidunt consequuntur, optio reiciendis laudantium unde officia possimus eligendi distinctio quaerat illum.</p>
-                <a href="#" class="btn">Leand More <i class="fas fa-angle-double-right"></i></a>
-            </div>
-        </section>
+    <section class="cards-banner-two">
+        <div class="content">
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error adipisci nihil sint enim rem temporibus
+                corrupti sit eum, incidunt consequuntur, optio reiciendis laudantium unde officia possimus eligendi
+                distinctio quaerat illum.</p>
+            <a href="#" class="btn">Leand More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </section>
 
-        <section class="social">
-            <p>Redes Sociales</p>
-            <div class="links">
-                <a href="#">
-                    <i class="fab fa-linkedin" target="_blank"></i>
-                </a>
-                <a href="#" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.instagram.com/screenft/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
-        </section>
+    <section class="social">
+        <p>Redes Sociales</p>
+        <div class="links">
+            <a href="#">
+                <i class="fab fa-linkedin" target="_blank"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/screenft/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </section>
     </div>
 
     <div class="footer-links">
@@ -314,4 +333,5 @@
     <!-- CUSTOME JS-->
     <script src="main.js"></script>
 </body>
+
 </html>
